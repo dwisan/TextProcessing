@@ -1,2 +1,3 @@
 # Text Processing Command In Linux
-> grep
+- [x] grep
+> grep [option] pattern [files]
