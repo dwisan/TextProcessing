@@ -22,7 +22,10 @@ LINUX
 ```
 > 2. Displaying the count of number of matches
 ```
-grep [option] pattern [files]
+$ echo -e "linux\nLinux\nLINUX" | grep -c "linux"
+1
+$ echo -e "linux\nLinux\nLINUX" | grep -c -i "linux"
+3
 ```
 > 3. Display the file names that matches the pattern
 ```
