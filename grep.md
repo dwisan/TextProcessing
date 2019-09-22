@@ -4,7 +4,7 @@
 grep [option] pattern [files]
 ```
 > 1. Case insensitive search
-```
+```bash
 $ echo -e "linux\nLinux\nLINUX" | grep "linux"
 linux
 
