@@ -8,7 +8,7 @@ grep [option] pattern [files]
 Do 1:
 $ echo -e "linux\nLinux\nLINUX" | grep "linux"
 
-linux
+_linux_
 
 Do 2:
 $ echo -e "linux\nLinux\nLINUX" | grep -i "linux"
