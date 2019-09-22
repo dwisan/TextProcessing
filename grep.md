@@ -47,8 +47,8 @@ grep [option] pattern [files]
 grep [option] pattern [files]
 ```
 > 9. Matching the lines that end with a string
-```
-grep [option] pattern [files]
+```bash
+$ 
 ```
 > 10. multiple times
 ```
