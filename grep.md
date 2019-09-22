@@ -6,16 +6,9 @@ grep [option] pattern [files]
 > 1. Case insensitive search
 ```
 $ echo -e "linux\nLinux\nLINUX" | grep "linux"
-```
-result:
-```
 linux
-```
-```
+
 $ echo -e "linux\nLinux\nLINUX" | grep -i "linux"
-```
-result:
-```
 linux
 Linux
 LINUX
