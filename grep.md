@@ -5,7 +5,17 @@ grep [option] pattern [files]
 ```
 > 1. Case insensitive search
 ```
-grep [option] pattern [files]
+Do 1:
+$ echo -e "linux\nLinux\LINUX" | grep "linux"
+
+linux
+
+Do 2:
+$ echo -e "linux\nLinux\LINUX" | grep -i "linux"
+
+linux
+Linux
+LINUX
 ```
 > 2. Displaying the count of number of matches
 ```
