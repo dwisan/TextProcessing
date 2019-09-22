@@ -5,12 +5,10 @@ grep [option] pattern [files]
 ```
 > 1. Case insensitive search
 ```
-Do 1:
 $ echo -e "linux\nLinux\nLINUX" | grep "linux"
 
 linux
 
-Do 2:
 $ echo -e "linux\nLinux\nLINUX" | grep -i "linux"
 
 linux
