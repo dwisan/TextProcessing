@@ -1,8 +1,7 @@
-# Text Processing Command In Linux
-- [x] grep
-
+# grep Command In Linux
+- [x] Syntax
 ```
-Syntax: grep [option] pattern [files]
+grep [option] pattern [files]
 ```
 data in text file (data.txt)
 ```
