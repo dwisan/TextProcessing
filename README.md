@@ -1,3 +1,6 @@
 # Text Processing Command In Linux
 - [x] grep
-> grep [option] pattern [files]
+Syntax:
+```
+grep [option] pattern [files]
+```
