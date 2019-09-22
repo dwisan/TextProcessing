@@ -4,7 +4,7 @@
 ```
 Syntax: grep [option] pattern [files]
 ```
-Learning data
+data in text file (data.txt)
 ```
 82,1307,5,977762272
 2953,2881,1,971212476
