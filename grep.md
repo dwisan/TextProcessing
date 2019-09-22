@@ -14,15 +14,17 @@ Linux
 LINUX
 ```
 > 2. Displaying the count of number of matches
-```
+```bash
 $ echo -e "linux\nLinux\nLINUX" | grep -c "linux"
 1
 $ echo -e "linux\nLinux\nLINUX" | grep -c -i "linux"
 3
 ```
 > 3. Display the file names that matches the pattern
-```
-grep [option] pattern [files]
+```bash
+$ grep -l "linux" file1.txt file2.txt file3.txt
+file1.txt
+file3.txt
 ```
 > 4. Checking for the whole words in a file
 ```
