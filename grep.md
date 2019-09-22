@@ -7,12 +7,15 @@ grep [option] pattern [files]
 ```
 $ echo -e "linux\nLinux\nLINUX" | grep "linux"
 ```
+result:
 ```
 linux
 ```
 ```
 $ echo -e "linux\nLinux\nLINUX" | grep -i "linux"
-
+```
+result:
+```
 linux
 Linux
 LINUX
